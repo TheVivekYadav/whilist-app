@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.form button {
+  padding: 8px 12px;
+}
+
+.filter {
+  margin-bottom: 15px;
+}
+
+.wishlist {
+  list-style: none;
+  padding: 0;
+}
+
+.wishlist-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.wishlist-item button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
